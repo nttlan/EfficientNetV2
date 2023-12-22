@@ -16,7 +16,7 @@ from utils import util
 from utils.dataset import Dataset
 
 warnings.filterwarnings("ignore")
-data_dir = os.path.join('..', 'Dataset', 'IMAGENET')
+data_dir = os.path.join('dataset', 'example')
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
 
