@@ -233,7 +233,6 @@ def main():
     parser.add_argument('--batch-size', default=128, type=int)
     parser.add_argument('--input-size', default=300, type=int)
     parser.add_argument('--local_rank', default=0, type=int)
-    parser.add_argument('--data_dir', default='', type=str)
     parser.add_argument('--benchmark', action='store_true')
     parser.add_argument('--epochs', default=300, type=int)
     parser.add_argument('--train', action='store_true')
