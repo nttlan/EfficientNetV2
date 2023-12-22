@@ -18,7 +18,7 @@ from utils.dataset import Dataset
 warnings.filterwarnings("ignore")
 normalize = transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 
-data_dir = '/content/drive/MyDrive/CS431/imagenet_200classes_5gb'
+data_dir = './imagenet_200classes_5gb'
 
 def lr(args):
     return 0.256 * args.batch_size * args.world_size / 4096
